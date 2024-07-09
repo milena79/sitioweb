@@ -1,0 +1,191 @@
+body{
+    padding-top: 2vh;
+}
+#contenedorGeneral{
+    max-width: 900px;
+    padding-top: 10px;
+    
+}
+
+#Titulo{
+    background-color: rgb(195, 200, 202);
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+   
+}
+
+h1{
+    font-family: 'Kanit', Cooper Black;
+    font-size: 3.5em;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Kanit', Arial, Helvetica, sans-serif; 
+    font-size: 1.7em;
+    margin: 0;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Kanit', Cooper Black;
+    text-indent: 4.5em;
+    font-size: 3.5em;
+}
+
+#imgCatdog{
+    width: 220px;
+    margin: 10px;
+    float: right;
+    padding-bottom:5px;
+    border-radius: 20px;
+
+}
+
+#barraMenu{
+    background-color: rgb(28, 74, 72);
+    border-radius: 0 0 10px 10px;
+}
+
+.vl {
+    border-left: 3px solid rgb(250, 252, 251);
+    height: 50px;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    cursor: pointer;
+}
+
+#contenido{
+    background-color: rgb(240, 227, 171);
+    border-radius: 15px;
+    padding-top: 10px;
+   width: 518px;
+    
+}
+
+
+#Seccion{
+    margin: 0.7em auto;
+    padding: 0;
+}
+
+hr.new5{
+    height: 10px;
+    background-color: white;
+}
+
+#imgFoto{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+#formulario{
+    border-radius: 15px;
+    background:rgb(73, 110,109);
+    padding:10px;
+    margin-left: 1.7em;
+}
+
+#formTitulo{
+    margin: 0 0 0 10px;
+    background:rgb(25, 43, 42);
+    border-radius: 10px;
+    text-align:center;
+    padding: 10px;
+    margin: 10px 0 40px 0;
+    
+  
+}
+
+#formulario h1{
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+    color: aliceblue;
+}
+
+#formulario label{
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:80px;
+    float:left;
+
+}
+
+#formulario input{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #708090;
+    width:200px;
+    margin:2px 0 20px 10px;
+
+}
+
+#formulario button{
+    clear:both;
+    margin:0 auto;
+    
+    display: flex;
+    height:31px;
+    background:#a5a2a2;
+    text-align:center;
+    line-height:31px;
+    color : rgb(20, 20, 20);
+    font-size:11px;
+    font-weight:bold;
+}
+
+
+
+#piedepagina{
+    margin: 0.1em auto;
+    padding-top: 10px;
+    background-color: rgb(28, 74, 72);
+    border-radius: 0 0 10px 10px;
+    
+}
+
+#piedepagina p{
+    color: aliceblue;
+    text-align:center;
+    
+}
+/*media queries*/
+
+
+@media only screen and (max-width:600px){
+
+    #contenedorGeneral{
+        display:block;
+    }
+    #contenido{
+        width:100%;
+        margin:auto;
+        margin-bottom: 10px;
+    }
+    #formulario{
+        width:100%;
+        margin:auto;
+        margin-bottom: 8px; 
+    }
+   #Titulo{
+    margin-top: 0px;;
+    padding: 0px;
+   }
+
+    h1{
+        font-size:0.5em;
+    }
+
+}
